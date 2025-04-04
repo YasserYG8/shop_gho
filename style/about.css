@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+
+}
+@keyframes op{
+    from{
+        opacity: 0;
+    }
+}
+
+body{
+    background: linear-gradient(80deg,white,lightyellow);
+    animation: op;
+    animation-duration: 2s;
+}
+p{
+    text-indent: 30px;
+}
+
+
+
+aside:hover{
+    transform: translateY(-10px);
+    background-color: lightyellow;
+    box-shadow: 4px 4px 4px black;
+    border: 4px solid black;
+
+}
+aside{
+    padding: 50px;
+    float: left;
+    width:50%;
+    font-size: 30px;
+    text-align: justify;
+    height: 650px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition-property:transform,box-shadow,background-color,border;
+    transition-duration:1s; 
+    transition-delay: 0.1s;
+    margin-bottom: 15px;
+
+}
+#yasser{
+    border: 2px solid black;
+    border-radius: 50%;
+    transition-property: transform,border,box-shadow;
+    transition-duration: 1s;
+    transition-delay: 0.1s;  
+}
+#yasser:hover{
+    transform: scale(1.01);
+    border: 4px solid black;
+    box-shadow: 4px 4px black;
+}
+
+figure{
+    margin-top: 25px;
+    margin-right: 65px;
+    float: right;
+    padding: 10px;
+    
+}
+figcaption{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 50px;
+    color: #555;
+    text-align: center;
+}
